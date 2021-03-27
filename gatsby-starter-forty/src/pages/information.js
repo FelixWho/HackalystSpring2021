@@ -12,7 +12,7 @@ const Landing = (props) => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <meta name="description" content="Info" />
         </Helmet>
 
         <BannerLanding />
@@ -34,9 +34,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Imposter Syndrome Workshops</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>In collaboration with executive coaches in the Research Triangle Park and Amy Arnold from DTech, the Catalyst exec team is putting together a workshop dedicated to demystifying Imposter Syndrome and providing students with resources to develop personally and professionally. We held this event on Thursday, March 18th, and are planning to hold more in the future!</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
