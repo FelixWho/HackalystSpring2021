@@ -8,7 +8,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("../images/glitch.gif")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -40,8 +40,13 @@
 			z-index: 1;
 		}
 
+		img {
+			height: 0.7em;
+		}
+
 		h1 {
-			font-size: 3.25em;
+			font-size: 4em;
+			font-family: 'Space Grotesk', sans-serif;
 		}
 
 		> .inner {
@@ -86,7 +91,7 @@
 				}
 
 				p {
-					font-size: 0.7em;
+					font-size: 0.8em;
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
