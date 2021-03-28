@@ -2,20 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import BannerInfo from '../components/BannerInfo'
 
 import pic08 from '../assets/images/imposter3.jpg'
 import pic09 from '../assets/images/felixandfriends.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic10 from '../assets/images/cliff.png'
 
-const Landing = (props) => (
+const Information = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Information - Forty by HTML5 UP</title>
             <meta name="description" content="Info" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerInfo/>
 
         <div id="main">
             <section id="one">
@@ -60,12 +60,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Cata-Retreats</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Besides the professional development workshops and courses we host for our members as well as access to an extensive network of succesful techies, Catalyst is all about community bonding and having a good time. Every year our members go on retreats together for some adventuring fun and to get to know each other better. Check out this sick pic we snapped at this cliff edge!</p>
                         </div>
                     </div>
                 </section>
@@ -75,4 +72,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default Information
