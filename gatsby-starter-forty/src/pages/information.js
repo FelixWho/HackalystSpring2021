@@ -8,10 +8,10 @@ import pic08 from '../assets/images/imposter3.jpg'
 import pic09 from '../assets/images/felixandfriends.jpg'
 import pic10 from '../assets/images/cliff.png'
 
-const Information = (props) => (
+const information = (props) => (
     <Layout>
         <Helmet>
-            <title>Information - Forty by HTML5 UP</title>
+            <title>information - Forty by HTML5 UP</title>
             <meta name="description" content="Info" />
         </Helmet>
 
@@ -72,4 +72,4 @@ const Information = (props) => (
     </Layout>
 )
 
-export default Information
+export default information
