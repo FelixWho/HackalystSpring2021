@@ -17,15 +17,35 @@ const information = (props) => (
 
         <BannerInfo/>
 
+
+
+
+        
         <div id="main">
             <section id="one">
-                <div className="inner">
+
+                <div className="box">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>mission statement</h2>  
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p> Catalyst is a social and pre-professional community of tech enthusiasts. We strive to connect our members to peers with similar interests and provide members with mentorship in the field of technology. As a diverse, tight-knit group on campus, we can rely on each other for not only career and academic advice, but also for social and emotional support. We wish to help members realize their potential and explore the possibilities that await in the tech world.</p>
+            
+
+                    <header className="major">
+                        <h2>frequently asked questions</h2>
+                    </header>
+                    <p> <b> <code> q: i would love to work with catalyst. how can i reach out?</code></b></p> 
+                    <p> <code> a: please email us! we're always looking to collaborate with folks around campus.</code></p>
+                    <p> <b> <code> q: how can i join?</code></b></p>
+                    <p> <code>a: unfortunately for you, we already have an amazing pledge class this semester! better luck next time :/ </code></p>
+                    <p> <b><code> q: are your events open to everyone?</code></b></p>
+                    <p><code> a: some of our events are open to everyone at duke, and we would love to have you there.</code></p>
+                    <p> <b><code>q:who is the best hackalyst team?</code></b></p>
+                    <p><code> a: felix and friends! (duh) (pictured below)</code></p>
                 </div>
+
             </section>
+
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
