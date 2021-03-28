@@ -4,10 +4,23 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerMembers from '../components/BannerMembers'
 
-import cutecats from '../assets/images/cutecat.jpeg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+
+import karendeng from '../assets/images/karen-deng.jpeg'
+import herleenkaur from '../assets/images/herleen-kaur.jpeg'
+import michellezhang from '../assets/images/michelle-zhang.jpeg'
+import samanthawhitt from '../assets/images/samantha-whitt.jpeg'
+import samuelzhang from '../assets/images/samuel-zhang.jpeg'
+import williamyu from '../assets/images/william-yu.jpeg'
+import aksharaanand from '../assets/images/akshara-anand.jpeg'
+import kevinfang from '../assets/images/kevin-fang.jpeg'
+import adamyee from '../assets/images/adam-yee.jpeg'
+import ericchai from '../assets/images/eric-chai.jpeg'
+import helenxiao from '../assets/images/helen-xiao.jpeg'
+import lisatang from '../assets/images/lisa-tang.jpeg'
+
 
 const Landing = (props) => (
     <Layout>
@@ -22,60 +35,36 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Executives</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <div className="box alt">
+                        <div className="grid-wrapper">
+                                <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={karendeng} alt="" /><p>Karen Deng</p></span></Link></div>
+                                <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={herleenkaur} alt="" /><p>Herleen Kaur</p></span></Link></div>
+                                <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={michellezhang} alt="" /><p>Michelle Zhang</p></span></Link></div>
+                        </div>
+                    </div> 
                 </div>
             </section>
-            <section id="two" className="spotlights">
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Orci maecenas</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+            <section id="two">
+                <div className="inner">
+                    <header className="major">
+                        <h2>Members</h2>
+                    </header>
+                    <div className="box alt">
+                        <div className="grid-wrapper">
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={adamyee} alt="" /></span><p>Adam Yee</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={aksharaanand} alt="" /></span><p>Akshara Anand</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={ericchai} alt="" /></span><p>Eric Chai</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={helenxiao} alt="" /></span><p>Helen Xiao</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={kevinfang} alt="" /></span><p>Kevin Fang</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={lisatang} alt="" /></span><p>Lisa Tang</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={samanthawhitt} alt="" /></span><p>Samantha Whitt</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={samuelzhang} alt="" /></span><p>Samuel Zhang</p></Link></div>
+                            <div className="col-4"><Link to="/generic" className="image"><span className="image fit"><img src={williamyu} alt="" /></span><p>William Yu</p></Link></div>
                         </div>
                     </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Rhoncus magna</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </section>
         </div>
 
